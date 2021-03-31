@@ -17,11 +17,12 @@ is classification task, set up exit criteria, runing time and etc, then we are a
 6. After deployment, the REST API in pyhon and swagger will be used to interact with the deployed model with sample data and check its prediction results
 7. Using python SDK create pipeline and then deployment, and publish it.
 ## Key Steps
-Step 1: Enable authentication by adding service principle
+Step 1: Enable authentication by adding service principle, because authentication is crucial for the continuous flow of operations. If the authentication is not set
+properly, it requires human interaction and the flow is interrupted.
 
 ![Screenshot](./img/sevrice-principle.png)
 
-Step 2: Display the workspace share completed without any errors
+Step 2: Display the workspace share completed without any errors, this allows the service principle to access to workspace.
 
 ![Screenshot](./img/work-space-share.png)
 
@@ -37,17 +38,19 @@ Step 5: Now we will pick up the best model for deployment
 
 ![Screenshot](./img/best-model.png)
 
-Step 6: After the model has successfully deployed, the Application Insights have been enabled and logging info has been retrived
+Step 6: We choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 
 ![Screenshot](./img/service-insights-enabled.png)
 ![Screenshot](./img/logs.png)
 
-Step 7: Consume the deployed model using Swagger, the test data will input into JSON and send to deployed model for test
+Step 7: Consume the deployed model using Swagger. Swagger is tool to for build, document and consume RESTful web services. It can send HTTP requests that the API 
+can consume like POST and GET.
 
 ![Screenshot](./img/swagger-HOST.png)
 ![Screenshot](./img/swagger.png)
 
-Step 8: Create ML pipeline based on AutoML, then the pipeline will be published to be comsumed
+Step 8: Create ML pipeline based on AutoML, then the pipeline will be published to be comsumed. User can input request via HTTP POST request that is used to submit data.
+The API exposed by Azure ML will use JSON format to accept data and submit responses. It serves as a bridge language among different environments.
 
 ![Screenshot](./img/pipeline-runing.png)
 
