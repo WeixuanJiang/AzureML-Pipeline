@@ -19,11 +19,11 @@ is classification task, set up exit criteria, runing time and etc, then we are a
 ## Key Steps
 Step 1: Enable authentication by adding service principle
 
-![Screenshot](./img/sevrice principle.png)
+![Screenshot](./img/sevrice-principle.png)
 
 Step 2: Display the workspace share completed without any errors
 
-![Screenshot](./img/work space share.png)
+![Screenshot](./img/work space-share.png)
 
 Step 3: Import the dataset into Azure Machine Learning Studio, and resgiter it
 
@@ -35,11 +35,11 @@ Step 4: After the AutoML has finished its running. The created experiment will a
 
 Step 5: Now we will pick up the best model for deployment
 
-![Screenshot](./img/best model.png)
+![Screenshot](./img/best-model.png)
 
 Step 6: After the model has successfully deployed, the Application Insights have been enabled and logging info has been retrived
 
-![Screenshot](./img/service insights enabled.png)
+![Screenshot](./img/service-insights-enabled.png)
 ![Screenshot](./img/logs.png)
 
 Step 7: Consume the deployed model using Swagger, the test data will input into JSON and send to deployed model for test
@@ -49,13 +49,13 @@ Step 7: Consume the deployed model using Swagger, the test data will input into 
 
 Step 8: Create ML pipeline based on AutoML, then the pipeline will be published to be comsumed
 
-![Screenshot](./img/pipeline runing.png)
+![Screenshot](./img/pipeline-runing.png)
 
-![Screenshot](./img/pipeline created.png)
+![Screenshot](./img/pipeline-created.png)
 
-![Screenshot](./img/pipeline endpoint.png)
+![Screenshot](./img/pipeline-endpoint.png)
 
-![Screenshot](./img/scheduled pipeline.png)
+![Screenshot](./img/scheduled-pipeline.png)
 
 ## Screen Recording
 https://www.dropbox.com/s/8vg4z2p103h308e/screencast.mp4?dl=0
