@@ -23,7 +23,7 @@ Step 1: Enable authentication by adding service principle
 
 Step 2: Display the workspace share completed without any errors
 
-![Screenshot](./img/work space-share.png)
+![Screenshot](./img/work-space-share.png)
 
 Step 3: Import the dataset into Azure Machine Learning Studio, and resgiter it
 
