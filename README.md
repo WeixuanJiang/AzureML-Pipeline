@@ -60,9 +60,6 @@ The API exposed by Azure ML will use JSON format to accept data and submit respo
 
 ![Screenshot](./img/scheduled-pipeline.png)
 
-## Screen Recording
-https://www.dropbox.com/s/8vg4z2p103h308e/screencast.mp4?dl=0
-
 ## Standout Suggestions
 We could create a intractive web site as deployment endpoint to allow user inpute and display prediction result. Also the 
 whole application can be containerised with docker and host on a web server.
